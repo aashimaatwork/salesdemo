@@ -1,6 +1,4 @@
-# Begin building the base of the Streamlit app with placeholder sections and data handling
 
-streamlit_app_code = '''
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -63,13 +61,4 @@ if st.button("Submit Comment"):
     st.success("Comment submitted!")
 
 st.write("Prototype - forecasting logic to be integrated in next version.")
-'''
 
-# Save the generated Streamlit app code to a Python file
-file_path = "/mnt/data/sales_dashboard_app.py"
-with open(file_path, "w") as f:
-    f.write(streamlit_app_code)
-
-file_path
-
-    
