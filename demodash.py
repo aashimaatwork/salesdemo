@@ -1,4 +1,7 @@
 
+# Required Libraries
+# You need to install these using: pip install streamlit pandas openpyxl plotly
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -61,4 +64,5 @@ if st.button("Submit Comment"):
     st.success("Comment submitted!")
 
 st.write("Prototype - forecasting logic to be integrated in next version.")
+
 
